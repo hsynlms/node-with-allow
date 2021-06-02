@@ -3,8 +3,8 @@
  * If not, 405 HTTP Error thrown, otherwise the original handler will be invoked.
  * @typedef {import('express').request} request
  * @typedef {import('express').response} response
- * @param {function} handler - The original Express.js route handler.
- * @param {String[]|'*'} [allowedMethods=[]] - Allowed HTTP method list for the route handler.
+ * @param {function} handler The original Express.js route handler.
+ * @param {String[]|'*'} [allowedMethods=[]] Allowed HTTP method list for the route handler.
  * Left blank to disallow all the HTTP methods. Pass asterisk (*) to allow all the HTTP methods.
  * @returns {Promise<(req: request, res: response)>} A handler which checks if the HTTP method is allowed for the handler.
  * @public
