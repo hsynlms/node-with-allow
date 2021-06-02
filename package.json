@@ -15,11 +15,11 @@
   },
   "keywords": [
     "express",
-    "next.js",
+    "nextjs",
     "handler",
     "allow",
     "route",
-    "http-status"
+    "http-methods"
   ],
   "engines": {
     "node": ">=12"
