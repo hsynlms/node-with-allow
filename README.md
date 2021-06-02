@@ -1,5 +1,5 @@
 # withAllow
-> A wrapper for [Express](https://github.com/expressjs/express) to check requested HTTP method are allowed for the route.
+> A wrapper for [Express](https://github.com/expressjs/express) to check the requested HTTP method are allowed for the route.
 
 [![Downloads](https://img.shields.io/npm/dm/with-allow.svg)](https://npmjs.com/with-allow)
 [![install size](https://packagephobia.com/badge?p=with-allow)](https://packagephobia.com/result?p=with-allow)
