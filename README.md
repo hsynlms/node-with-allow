@@ -32,6 +32,10 @@ app.listen(3000, () => {
 // http://localhost:3000 -> will print out "GET works!"
 ```
 
+## Next.js
+
+It is also possible to use `withAllow` in Next.js API routes.
+
 ## Options
 
 | Name                   | Type              | Default        | Description                                                                    |
