@@ -36,7 +36,7 @@ app.listen(3000, () => {
 
 It is also possible to use `withAllow` in Next.js API routes. There is an example following.
 
-```
+```js
 // Next.js API route example
 function handler(req, res) {
   // API route handler
