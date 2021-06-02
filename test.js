@@ -102,3 +102,16 @@ test('passing string (other than asterisk) to "allowedMethods"', async t => {
     }
   )
 })
+
+test('passing different type of items to "allowedMethods"', async t => {
+  const handler =
+    (req, res) => {
+      return res.send('OK')
+    }
+
+  t.throws(
+    () => {
+      withAllow(handler, ['GET', true, 1, { kardeslerim: true }])
+    }
+  )
+})
