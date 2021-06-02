@@ -1,6 +1,6 @@
 {
   "name": "with-allow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-with-allow",
   "exports": "./src/index.js",
   "type": "module",
