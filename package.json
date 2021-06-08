@@ -1,7 +1,7 @@
 {
   "name": "with-allow",
   "version": "1.0.1",
-  "description": "node-with-allow",
+  "description": "a route handler wrapper for Express to check if the requested HTTP method are allowed for the route",
   "exports": "./src/index.js",
   "type": "module",
   "scripts": {
